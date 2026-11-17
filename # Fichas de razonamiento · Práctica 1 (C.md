@@ -559,7 +559,7 @@ Usar más de una capa de codificación no hace que la información se vuelva má
 |---|---|---|---|---|
 | 1 | `NTA2NTZl…` | Usa minúsculas, por lo que no puede ser Base32, y cumple con la regla de tener una longitud múltiplo de 4 (40), y como usa letras posteriores a la "F" no puede ser hexadecimal | `echo "NTA2NTZlNzQ2NTczNzQ2OTZlNjc0NTc0Njk2MzZm" \| base64 -d` | `50656e74657374696e67457469636f` |
 | 2 | `50656e74657374696e67457469636f` | Usa letras en minúscula de a-f, y al tener una longitud no múltiplo de 4 (30), debe ser hexadecimal | `echo "50656e74657374696e67457469636f" \| xxd -r -p` | `PentestingEtico` |
-| 3 | `PenTestingEtico` | Es texto plano, se puede ver a simple vista | `echo "PentestingEtico" \| md5sum` | `c784ae85751ffee70b053ec8ea30c92a` |
+| 3 | `PenTestingEtico` | Es texto plano, se puede ver a simple vista | `echo -n "PentestingEtico" \| md5sum` | `c784ae85751ffee70b053ec8ea30c92a` |
 
 **4. Por qué lo hacemos así.** *¿Cómo decidisteis el orden de las capas? ¿Qué pasaría si intentarais decodificar el hexadecimal antes que el Base64?*
 
