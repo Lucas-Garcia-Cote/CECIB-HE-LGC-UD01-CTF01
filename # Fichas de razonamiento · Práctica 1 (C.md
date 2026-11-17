@@ -579,7 +579,7 @@ Si intentamos decodificar primero por hexadecimal nos dará un error, ya que el 
 En este caso no nos fue necesario utiilizar la IA ya que toda la información necesaria la pudimos encontrar en los retos anteriores de esta tarea
 ```
 
-**6. Flag:** `flag{c784ae85751ffee70b053ec8ea30c92a}`
+**6. Flag:** `flag{9aecd70031065dca970d360495604777}`
 
 **7. Verificación**
 
@@ -600,15 +600,3 @@ La IA no nos dio ninguna respuesta incorrecta por lo que pudimos comprobar tras 
 
 ---
 
-## Rúbrica con la que se corrige cada ficha
-
-| Criterio | Peso | Nivel alto | Nivel medio | Nivel bajo |
-|---|---|---|---|---|
-| **Identificación del concepto** (apartados 1 y 2) | 25 % | Nombra el concepto con precisión y lo relaciona con otros retos | Identifica el concepto principal | No reconoce de qué trata el reto |
-| **Justificación del procedimiento** (apartados 3 y 4) | 35 % | Explica el porqué de cada paso y de los detalles | Explica los pasos principales | Ejecuta comandos sin justificar |
-| **Uso reflexivo de la IA** (apartado 5) | 20 % | Sus preguntas buscan entender y detecta errores de la IA | Usa la IA para apoyarse y entender | Copia respuestas de la IA sin entenderlas |
-| **Resultado técnico** (apartados 6 y 7) | 10 % | Flag correcta y en el formato pedido | Flag correcta con un fallo menor de formato | Flag incorrecta |
-| **Expresión y rigor** (toda la ficha) | 10 % | Vocabulario técnico correcto y claro | Se entiende, con imprecisiones menores | Vocabulario incorrecto o confuso |
-
-Cada criterio se puntúa con la escala de 8 niveles: Excelente 10 · Sobresaliente 9 · Notable 7,5
-· Bien 6 · Aprobado 5 · Insuficiente 2 · Muy insuficiente 0,5 · Sin respuesta 0.
